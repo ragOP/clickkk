@@ -96,16 +96,18 @@ html{}*,::after,::before{box-sizing:border-box}body{background-color: white;font
 .q_circles_holder {
   position: relative;
   display: inline-block;
+  left: 44px;
   width: 100%;
   clear: both;
-  list-style: none;
-  margin-left: 90px;
-  padding: 0;
+  min-width: 1600px;
+  /* list-style: none; */
+  
+  /* padding: 0; */
   border-color: #eaeaea;
 }
 .q_circles_holder:before {
   position: absolute;
-  left: 80px;
+  /* left: 80px; */
   display: block;
   width: 85%;
   height: 0;
@@ -214,7 +216,7 @@ html{}*,::after,::before{box-sizing:border-box}body{background-color: white;font
   display: block;
   text-align: center;
   margin: 36px 0 0;
-  padding: 0 10px;
+ 
   
 }
 nav.content_menu ul,
