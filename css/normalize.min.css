@@ -21,9 +21,9 @@ html{}*,::after,::before{box-sizing:border-box}body{background-color: white;font
 .product-card {
   background-color: #fff;
   border: 1px solid #ddd;
-  border-radius: 8px;
+  border-radius: 42px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 25px;
+  padding: 5px;
   width:24%;
   height: auto;
   margin: 10px;
