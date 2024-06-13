@@ -283,11 +283,12 @@ nav.content_menu ul li {
   margin: 20px;
 }
 .content {
-  background: linear-gradient(to right, #0040FE,
-  rgba(8, 16, 77, 1) 61.02564102564103%) ;  padding: 20px;
+  background: linear-gradient(to right, #0096f2, #002fff) ;  
+  padding: 20px;
   border-radius: 20px;
   max-width: 64%;
   color: white;
+  border-radius: 20px;
 }
 .wrapper2 {
   display: flex;
@@ -295,12 +296,13 @@ nav.content_menu ul li {
   margin: 20px;
 }
 .content2 {
-  background: linear-gradient(to right, #0040FE,
-  rgba(8, 16, 77, 1) 61.02564102564103%) ;
+  background: linear-gradient(to right, #0096f2, #002fff) ;
    padding: 20px;
   max-width: 60%;
   color: white;
   margin-left:auto ;
+  border-radius: 20px;
+
 
 }
 .image2 {
@@ -316,9 +318,8 @@ video {
   margin-top: 20px;
 }
 .content3 {
-  
-  background: linear-gradient(to right, #0040FE,
-  rgba(8, 16, 77, 1) 61.02564102564103%) ;
+border-radius: 20px;
+  background: linear-gradient(to right, #0096f2, #002fff) ;
     padding: 20px;
   max-width: 60%;
   color: white;
