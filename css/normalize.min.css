@@ -246,6 +246,8 @@ nav.content_menu ul li {
   .q_circles_holder.four_columns .q_circle_outer,
   .q_circles_holder.five_columns .q_circle_outer {
     width: 100%;
+    right: 10%;
+
   }
   .q_circles_holder.three_columns .q_circle_inner,
   .q_circles_holder.four_columns .q_circle_inner,
