@@ -263,3 +263,130 @@ nav.content_menu ul li {
   }
 }
 
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+.content {
+  background-color: #a0cce7;
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 64%;
+  color: white;
+}
+.wrapper2 {
+  display: flex;
+  align-items: center;
+  /* margin: 20px; */
+}
+.content2 {
+  background-color: #030450;
+  padding: 20px;
+  max-width: 60%;
+  color: white;
+  margin-left:auto ;
+
+}
+.image2 {
+  margin-left:10% ;
+}
+video {
+  max-width: 200px;
+  height: auto;
+}
+.wrapper3 {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.content3 {
+  background-color: #030450;
+  padding: 20px;
+  max-width: 60%;
+  color: white;
+margin-inline-end: auto ;
+
+}
+.image3 {
+  margin-right:12% ;
+}
+
+video {
+  max-width: 200px;
+  height: auto;
+}
+.image {
+            margin-left:15% ;
+        }
+        img {
+            max-width: 200px;
+            height: auto;
+        }
+   .main-wrapper{
+    align-items: center;
+    margin: 20px auto;
+          width: 80%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out 0.5s;
+    margin-top: 8%;
+        }
+        /* Media query for smaller screens */
+@media (max-width: 768px) {
+  .wrapper, .wrapper2, .wrapper3 {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .content, .content2, .content3 {
+    max-width: 100%;
+    margin-left: 0;
+    margin-inline-end: 0;
+  }
+
+  .image, .image2, .image3 {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  video, img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .main-wrapper {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+.typing-animation {
+  font-family: 'Poppins';
+  white-space: nowrap;
+    overflow-wrap: break-word; /* Allows breaking words */
+    word-wrap: break-word;
+  overflow: hidden;
+  font-size: 1.2em;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  animation: typing 5s steps(100, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* @keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(255, 255, 255); }
+} */
+
+.strong {
+  font-weight: bold;
+}
