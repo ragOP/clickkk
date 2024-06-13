@@ -2097,12 +2097,13 @@ main.off {
 }
 
 .platformImg {
-  background: #fff;
+  background: #E6FBFF;
   border-radius: 20px;
   height: 100%;
   position: relative;
   padding-top: 55%;
-  border: 6px solid #185abc;
+  /* border: 6px solid #185abc; */
+ opacity:0.9 /* Adjust the opacity value as needed (0.0 to 1.0) */
 }
 .platformImg img {
   object-fit: contain;
