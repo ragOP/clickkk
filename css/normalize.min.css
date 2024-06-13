@@ -283,8 +283,8 @@ nav.content_menu ul li {
   margin: 20px;
 }
 .content {
-  background-color: #a0cce7;
-  padding: 20px;
+  background: linear-gradient(to right, #0040FE,
+  rgba(8, 16, 77, 1) 61.02564102564103%) ;  padding: 20px;
   border-radius: 20px;
   max-width: 64%;
   color: white;
@@ -295,8 +295,9 @@ nav.content_menu ul li {
   margin: 20px;
 }
 .content2 {
-  background-color: #030450;
-  padding: 20px;
+  background: linear-gradient(to right, #0040FE,
+  rgba(8, 16, 77, 1) 61.02564102564103%) ;
+   padding: 20px;
   max-width: 60%;
   color: white;
   margin-left:auto ;
@@ -315,8 +316,10 @@ video {
   margin-top: 20px;
 }
 .content3 {
-  background-color: #030450;
-  padding: 20px;
+  
+  background: linear-gradient(to right, #0040FE,
+  rgba(8, 16, 77, 1) 61.02564102564103%) ;
+    padding: 20px;
   max-width: 60%;
   color: white;
 margin-inline-end: auto ;
