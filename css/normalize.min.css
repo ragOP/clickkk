@@ -343,7 +343,7 @@ video {
         }
    .main-wrapper{
     align-items: center;
-    margin: 100px auto;
+    margin: 100px auto ;
           width: 80%;
     padding: 20px;
     border: 1px solid #ccc;
@@ -351,7 +351,7 @@ video {
     background: rgb(255, 255, 255);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     animation: fadeIn 1s ease-in-out 0.5s;
-    margin-top: 8%;
+    margin-top: -6%;
         }
         /* Media query for smaller screens */
 @media (max-width: 768px) {
@@ -379,10 +379,22 @@ video {
 
   .main-wrapper {
     width: 100%;
-    margin-top: 20px;
+  top: -100px;
   }
+/* }.typing-animation {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 6s steps(70, end), blink-caret 0.75s step-end infinite;
 }
-.typing-animation {
+
+.typing-animation span {
+  display: inline-block;
+  animation: typing 6s steps(70, end), blink-caret 0.75s step-end infinite;
+  animation-delay: 4s; /* Delay the second part of the animation */
+} */
+
+/* .typing-animation {
   font-family: 'Poppins';
   white-space: nowrap;
     word-wrap: break-word;
@@ -392,7 +404,7 @@ video {
   width: 100%;
   height: auto;
   animation: typing 5s steps(100, end), blink-caret 0.75s step-end infinite;
-}
+} */
 
 @keyframes typing {
   from { width: 0 }
