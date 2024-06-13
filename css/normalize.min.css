@@ -278,7 +278,7 @@ nav.content_menu ul li {
 .wrapper2 {
   display: flex;
   align-items: center;
-  /* margin: 20px; */
+  margin: 20px;
 }
 .content2 {
   background-color: #030450;
@@ -317,7 +317,7 @@ video {
   height: auto;
 }
 .image {
-            margin-left:15% ;
+            margin-right:12% ;
         }
         img {
             max-width: 200px;
@@ -367,7 +367,6 @@ video {
 .typing-animation {
   font-family: 'Poppins';
   white-space: nowrap;
-    overflow-wrap: break-word; /* Allows breaking words */
     word-wrap: break-word;
   overflow: hidden;
   font-size: 1.2em;
