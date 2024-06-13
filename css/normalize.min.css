@@ -96,10 +96,10 @@ html{}*,::after,::before{box-sizing:border-box}body{background-color: white;font
 .q_circles_holder {
   position: relative;
   display: inline-block;
-  left: 44px;
+  left: 144px;
   width: 100%;
   clear: both;
-  min-width: 1600px;
+  /* min-width: 1600px; */
   /* list-style: none; */
   
   /* padding: 0; */
