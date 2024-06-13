@@ -86,17 +86,19 @@ html{}*,::after,::before{box-sizing:border-box}body{background-color: white;font
 }
 .wpb_wrapper{
   padding: 50px;
+  align-items: ;
 }
 .q_circles_holder .q_circle_inner2,
 .q_circles_holder .q_circle_outer {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   position: relative;
+  padding: 20%;
 }
 .q_circles_holder {
   position: relative;
   display: inline-block;
-  left: 144px;
+  left: 10%;
   width: 100%;
   clear: both;
   /* min-width: 1600px; */
@@ -145,6 +147,7 @@ html{}*,::after,::before{box-sizing:border-box}body{background-color: white;font
 }
 .q_circles_holder.five_columns .q_circle_outer {
   width: 20%;
+  padding: 18px;
 }
 .q_circles_holder .q_circle_inner {
   position: relative;
@@ -229,6 +232,8 @@ nav.content_menu ul li {
   display: block;
   margin: 7px 0 0;
   font-size: 14px;
+  color: #8a8a8a !important;
+  font-family: 'Poppins' !important;
 }
 
 
