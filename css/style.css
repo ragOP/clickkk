@@ -2112,6 +2112,7 @@ main.off {
   transform: translate(-50%, -50%);
   height: auto;
   max-height: 100%;
+  padding: 30px;
   /* padding: 2rem 2.25rem; */
 }
 
