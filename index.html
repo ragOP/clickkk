@@ -534,32 +534,24 @@ Our Blog2
 
 <script>
   const text = 'We accelerate and scale brands to new heights using our proprietary technology and world-class marketing team.';
+  const words = text.split(' ');
   const typingContainer = document.getElementById('typing-container');
   let index = 0;
 
   function type() {
-      if (index < text.length) {
-          if (text.substring(index, index + 12) === ' ') {
-              const strong = document.createElement('strong');
-              strong.textContent = 'world-class ';
-              typingContainer.appendChild(strong);
-              index += 12;
-          } else {
-              const span = document.createElement('span');
-              span.textContent = text.charAt(index);
-              typingContainer.appendChild(span);
-              index++;
-          }
-          setTimeout(type, 10);
-      } else {
-          typingContainer.classList.remove('blink');
-      }
+    if (index < words.length) {
+      const span = document.createElement('span');
+      span.textContent = words[index] + ' ';
+      typingContainer.appendChild(span);
+      index++;
+      setTimeout(type, 100); // 50% faster typing for words
+    } else {
+      typingContainer.classList.remove('blink');
+    }
   }
 
-  typingContainer.classList.add('blink');
   type();
 </script>
-
 <div class="bde-button-38-104 bde-button">
 
   
@@ -669,7 +661,7 @@ Scale. Break through &amp; generate real <br>growth with a tailored marketing <b
   <!-- <div style="background: linear-gradient(to right, #8f1465, #161346);padding: 2px; border: 2px solid #ddd; border-radius: 50px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center; max-width: 60%; margin: 20px auto;">
     <h1 style="font-size: 1.8em!important; margin-top: 14px!important; color: #ddd!important; text-align: center">Marketing Requires a 360° Approach</h1>
   </div> -->
-<section class="bde-section-34564-100 bde-section">
+<section class="bde-section-34564-100 bde-section" style="margin-top: -200px;">
 <div class="section-container"><div class="bde-image-accordion-34564-101 bde-image-accordion">
 <div class="ee-image-accordion-item ee-image-accordion-item-1">
 <a class="breakdance-link ee-image-accordion-link"  target="_self" data-type="url">
