@@ -325,6 +325,7 @@ border-radius: 20px;
   max-width: 60%;
   color: white;
 margin-inline-end: auto ;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
 
 }
 .image3 {
@@ -350,7 +351,7 @@ video {
     /* border: 1px solid #ccc; */
     border-radius: 10px;
     background: rgb(255, 255, 255);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
     animation: fadeIn 1s ease-in-out 0.5s;
     margin-top: -6%;
         }
@@ -359,6 +360,7 @@ video {
   .wrapper, .wrapper2, .wrapper3 {
     flex-direction: column-reverse;
     align-items: center;
+    
   }
 
   .content, .content2, .content3 {
