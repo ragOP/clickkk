@@ -2102,6 +2102,7 @@ main.off {
   height: 100%;
   position: relative;
   padding-top: 55%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   /* border: 6px solid #185abc; */
  opacity:0.9 /* Adjust the opacity value as needed (0.0 to 1.0) */
 }

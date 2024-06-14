@@ -18,9 +18,10 @@ html{}*,::after,::before{box-sizing:border-box}body{background-color: white;font
   justify-content: center;
 }
 
+
 .product-card {
   background-color: #fff;
-  border: 1px solid #ddd;
+  /* border: 1px solid #ddd; */
   border-radius: 42px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 5px;
@@ -293,7 +294,7 @@ nav.content_menu ul li {
 .wrapper2 {
   display: flex;
   align-items: center;
-  margin: 20px;
+  margin: 44px;
 }
 .content2 {
   background: linear-gradient(to right, #0096f2, #002fff) ;
@@ -346,7 +347,7 @@ video {
     margin: 100px auto ;
           width: 80%;
     padding: 20px;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     border-radius: 10px;
     background: rgb(255, 255, 255);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
