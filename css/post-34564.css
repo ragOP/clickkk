@@ -8,7 +8,9 @@
 }
 .breakdance .bde-image-accordion-34564-101 .ee-image-accordion-item {
   border-radius: 16px;
-  box-shadow: 10px 15px 2px 5px rgb(244, 1, 1);
+  /* box-shadow: 0px 4px 8px rgba(0, 0, 255, 0.3); */
+  /* box-shadow: 10px 15px 2px 5px rgba(128, 128, 128, 0.3); */
+  box-shadow: 5px 5px 1px 1px rgba(128, 128, 128, 0.3);
 
 }
 .breakdance .bde-image-accordion-34564-101 .ee-image-accordion-item:hover {

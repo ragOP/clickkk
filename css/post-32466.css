@@ -1,1 +1,50 @@
-.breakdance .bde-div-32466-100{width:100%;gap:1.5rem}.breakdance .bde-div-32466-100{margin-right:auto;margin-left:auto}.breakdance .bde-heading-32466-101{font-size:var(--preset-id-0bfde8ca-daef-4252-9a0f-b35e33a5d2a1-font-size);font-family:var(--preset-id-0bfde8ca-daef-4252-9a0f-b35e33a5d2a1-font-family);font-weight:var(--preset-id-0bfde8ca-daef-4252-9a0f-b35e33a5d2a1-font-weight);line-height:var(--preset-id-0bfde8ca-daef-4252-9a0f-b35e33a5d2a1-line-height)}.breakdance .bde-text-32466-102{width:45rem;font-size:var(--preset-id-972550cc-fb21-419b-a41a-80378eda0cea-font-size);font-family:var(--preset-id-972550cc-fb21-419b-a41a-80378eda0cea-font-family);font-weight:var(--preset-id-972550cc-fb21-419b-a41a-80378eda0cea-font-weight);line-height:var(--preset-id-972550cc-fb21-419b-a41a-80378eda0cea-line-height)}.breakdance .bde-div-32466-103{width:100%;padding:2rem;border-radius:1.5rem;margin-top:2%}.breakdance .bde-div-32466-103{background-color:var(--bde-palette-color-2)}@media(max-width:767px){.breakdance .bde-div-32466-103{border-radius:1rem}}
+.breakdance .bde-div-32466-100 {
+  width: 100%;
+  gap: 1.5rem;
+}
+.breakdance .bde-div-32466-100 {
+  margin-right: auto;
+  margin-left: auto;
+}
+.breakdance .bde-heading-32466-101 {
+  font-size: var(--preset-id-0bfde8ca-daef-4252-9a0f-b35e33a5d2a1-font-size);
+  font-family: var(
+    --preset-id-0bfde8ca-daef-4252-9a0f-b35e33a5d2a1-font-family
+  );
+  font-weight: var(
+    --preset-id-0bfde8ca-daef-4252-9a0f-b35e33a5d2a1-font-weight
+  );
+  line-height: var(
+    --preset-id-0bfde8ca-daef-4252-9a0f-b35e33a5d2a1-line-height
+  );
+}
+.breakdance .bde-text-32466-102 {
+  width: 45rem;
+  font-size: var(--preset-id-972550cc-fb21-419b-a41a-80378eda0cea-font-size);
+  font-family: var(
+    --preset-id-972550cc-fb21-419b-a41a-80378eda0cea-font-family
+  );
+  font-weight: var(
+    --preset-id-972550cc-fb21-419b-a41a-80378eda0cea-font-weight
+  );
+  line-height: var(
+    --preset-id-972550cc-fb21-419b-a41a-80378eda0cea-line-height
+  );
+}
+.breakdance .bde-div-32466-103 {
+  width: 100%;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  margin-top: 2%;
+}
+.breakdance .bde-div-32466-103 {
+    background: linear-gradient(to right, #0096f2, #002fff);
+  /* background-color: var(--bde-palette-color-2); */
+}
+@media (max-width: 767px) {
+  .breakdance .bde-div-32466-103 {
+    border-radius: 1rem;
+  }
+}
+
+
