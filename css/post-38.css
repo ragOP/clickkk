@@ -25,6 +25,9 @@ body {
     margin-top: -87px !important;
     /* margin-bottom: 5px !important; */
   }
+  .bde-section{
+    margin-top: 87px !important;
+  }
 }
 @media (max-width: 1119px) {
   .breakdance .bde-section-38-100 > .section-background-overlay {
@@ -1749,7 +1752,7 @@ body {
 @media (max-width: 768px) {
   .dead {
     max-width: 100% !important;
-    margin: 2px auto !important;
+    margin: -90px auto !important;
     
   }
 }
