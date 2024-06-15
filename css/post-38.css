@@ -19,7 +19,7 @@ body {
 }
 .bde-heading {
 }
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .bde-heading {
     font-size: 2.5em !important;
     margin-top: -87px !important;
@@ -113,7 +113,9 @@ body {
   position: absolute;
   right: -30%;
 }
-@media (max-width: 1119px) {
+
+
+@media (max-width:600px) {
   .breakdance .bde-image-38-106 {
     /* width: 50rem; */
   }
@@ -127,6 +129,8 @@ body {
     bottom: 63%;
   }
 }
+
+
 .breakdance .bde-section-38-107 .section-container {
   gap: 4rem;
 }

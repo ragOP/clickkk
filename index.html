@@ -157,6 +157,17 @@
     box-sizing: border-box;
   }
 
+  @media (max-width:600px) {
+  .divs {
+    display: none;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: -17px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+}
   .rectangle {
     background-color: #0040fe ;
     color: rgb(255, 255, 255) !important;
@@ -181,6 +192,41 @@
         box-shadow: 0px 4px 8px rgba(0, 0, 255, 0.3);
     }
   }
+
+
+
+
+  /* ndjks */
+  .tree {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (min-width: 767px) {
+  .tree {
+    display: none; /* You can optionally reset display property for mobile here if needed */
+  }
+}
+
+
+
+    .node {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 3.5em;
+      height: 3.125em;
+      margin: 0.625em;
+      color: white!important;
+    border-radius: 8px;
+      text-align: center;
+         background-color:#0040fe ;
+           font-family: 'Lab Grotesque', sans-serif;
+             box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.6);
+    }
+
+
+
 </style>
 </head>
 <body class="home page-template-default page page-id-38 wp-custom-logo breakdance cookies-not-set piotnetgrid-edit">
@@ -643,6 +689,30 @@ Our Blog2
   <div class="rectangle">Creative</div>
   <div class="rectangle">Branding</div>
 </div>
+
+<div class="tree">
+  <div >
+    <div class="node blue">Paid</div>
+    <div class="node blue">SEO</div>
+    <div class="node blue">CRO </div>
+    <div class="node orange">Social </div>
+  </div>
+
+  <div >
+    <div class="node orange">Social </div>
+    <div class="node orange">Email</div>
+    
+  </div>
+
+  <div >
+    <div class="node">Creative</div>
+    
+  </div>
+</div>
+
+
+
+
 <!-- <div class="bde-div-38-402 bde-div">
 <a class="bde-text-link-38-408 bde-text-link hero-nav-links breakdance-link"  target="_self" data-type="url">
 <p style="font-size: 1.2em !important;">Paid</p>
