@@ -268,8 +268,8 @@ nav.content_menu ul li {
   .q_circles_holder.three_columns .q_circle_inner,
   .q_circles_holder.four_columns .q_circle_inner,
   .q_circles_holder.five_columns .q_circle_inner {
-    width: 220px;
-    height: 220px;
+    width: 110px;
+    height: 110px;
   }
   .q_circles_holder .q_circle_text_holder {
     margin: 15px 0 0;
@@ -278,6 +278,13 @@ nav.content_menu ul li {
     display: none;
   }
 }
+
+@media (max-width:600px) {
+  .doc{
+    font-size: 100px; 
+   }
+}
+
 
 .wrapper {
   display: flex;
@@ -304,6 +311,8 @@ nav.content_menu ul li {
   color: white;
   margin-left:auto ;
   border-radius: 20px;
+  
+  
 
 
 }
