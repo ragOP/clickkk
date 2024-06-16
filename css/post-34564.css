@@ -1,22 +1,27 @@
 .breakdance .bde-section-34564-100 .section-container {
   gap: 1.5rem;
+  
+
 }
 .breakdance .bde-image-accordion-34564-101 {
   height: 25rem;
   gap: 1.5rem;
   --eeiaTransitionDuration: 500ms;
 }
+
 .breakdance .bde-image-accordion-34564-101 .ee-image-accordion-item {
   border-radius: 16px;
   /* box-shadow: 0px 4px 8px rgba(0, 0, 255, 0.3); */
   /* box-shadow: 10px 15px 2px 5px rgba(128, 128, 128, 0.3); */
   box-shadow: 5px 5px 1px 1px rgba(128, 128, 128, 0.3);
+  
 
 }
 .breakdance .bde-image-accordion-34564-101 .ee-image-accordion-item:hover {
   flex-basis: 150%;
 }
 .breakdance .bde-image-accordion-34564-101 .ee-image-accordion-item::after {
+  
   background: linear-gradient(
     31deg,
     #446deb,
@@ -50,7 +55,7 @@
 }
 @media (max-width: 1023px) {
   .breakdance .bde-image-accordion-34564-101 {
-    height: 40rem;
+    height: 50rem;
     flex-direction: column;
     overflow-x: hidden;
   }
