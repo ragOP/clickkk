@@ -1755,6 +1755,9 @@ body {
     margin: -90px auto !important;
     
   }
+  .tension{
+    max-width: 100% !important;
+  }
 }
 
 /* raghib */
