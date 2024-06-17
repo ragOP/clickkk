@@ -1752,7 +1752,7 @@ body {
 @media (max-width: 768px) {
   .dead {
     max-width: 100% !important;
-    margin: -90px auto !important;
+    margin: 43px auto !important;
     font-size: .6em;
     
   }

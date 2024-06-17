@@ -393,6 +393,7 @@ video {
   .main-wrapper {
     width: 100%;
   top: -100px;
+  margin-top: -200px;
   }
 /* }.typing-animation {
   display: inline-block;
