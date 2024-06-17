@@ -1753,10 +1753,12 @@ body {
   .dead {
     max-width: 100% !important;
     margin: -90px auto !important;
+    font-size: .6em;
     
   }
   .tension{
     /* s */
+    font-size: .6em;
     max-width: 100% !important;
   }
 }
