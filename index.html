@@ -161,10 +161,13 @@
   @media (max-width:600px) {
     .raghibhui{
     margin-top: -90px !important;
+    width: calc(100vw - 25px);
+        margin-left: 14px;
   }
   .babar{
     display: none;
   }
+ 
   .divs {
     display: none;
     flex-wrap: wrap;
@@ -210,6 +213,9 @@
       align-items: center;
     }
     @media (min-width: 767px) {
+      .mobd{
+    display: none;
+  }
   .tree {
     display: none; /* You can optionally reset display property for mobile here if needed */
   }
@@ -217,20 +223,6 @@
 
 
 
-    .node {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 3.5em;
-      height: 3.125em;
-      margin: 0.625em;
-      color: white!important;
-    border-radius: 8px;
-      text-align: center;
-         background-color:#0040fe ;
-           font-family: 'Lab Grotesque', sans-serif;
-             box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.6);
-    }
 
 
 
@@ -697,23 +689,22 @@ Our Blog2
   <div class="rectangle">Branding</div>
 </div>
 
-<div class="tree">
-  <div >
+<div class="tree"  > 
+  <div class="rowd">
     <div class="node blue">Paid</div>
     <div class="node blue">SEO</div>
-    <div class="node blue">CRO </div>
-    <div class="node orange">Social </div>
+    <div class="node blue">CRO</div>
+    <div class="node orange">Branding</div>
   </div>
+  
+</div>
 
-  <div >
-    <div class="node orange">Social </div>
+<div class="tree"  style="margin-top:-20px;margin-left: 55px; " >
+
+  <div class="rowd">
+    <div class="node orange">Social</div>
     <div class="node orange">Email</div>
-    
-  </div>
-
-  <div >
     <div class="node">Creative</div>
-    
   </div>
 </div>
 
@@ -756,8 +747,35 @@ Our Blog2
   }
 
   @media (max-width: 600px) {
+    .node {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4.5em;
+  height: 3.125em;
+  margin: 0.625em;
+  color: white !important;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #0040fe;
+  font-family: 'Lab Grotesque', sans-serif;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.6);
+}
+    .rowd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+ 
+  margin-left: -30px;
+}
+
+.hide{
+  display: none;
+}
+
     .typing-container  {
-     
+     font-size: 12px;
       margin-top: -60px;
     }
   }
@@ -1127,7 +1145,7 @@ Looking to grow your Pediatricians business and attract more patient referrals? 
     </div>
     <!-- <h2  class="text-blue">Platform partnerships we utilize to ensure a wide range of customer profiles</h2> -->
 
-    <div class="platforms" style="margin-top: 7%;">
+    <div class="platforms hide" style="margin-top: 7%;">
       <div class="row">
         <div class="col">
           <div class="platformImg"><img src="images/platform-google.svg" alt="google logo" class="img-fluid"></div>
@@ -1162,6 +1180,43 @@ Looking to grow your Pediatricians business and attract more patient referrals? 
 
                   </div>
 
+                  <div class="platforms mobd" style="margin-top: 7%;">
+                    <div class="row">
+                      <div class="col">
+                        <div class="platformImg"><img src="images/platform-google.svg" alt="google logo" class="img-fluid"></div>
+                      </div>	
+                      <div class="col">
+                        <div class="platformImg"><img src="images/platform-meta.svg" alt="meta logo" class="img-fluid"></div>
+                      </div>
+                      <div class="col">
+                        <div class="platformImg"><img src="images/hulu.png" alt="yahoo logo" class="img-fluid"></div>
+                      </div>
+                      <div class="col">
+                        <div class="platformImg"><img src="images/platform-tiktok.svg" alt="tiktok logo" class="img-fluid"></div>
+                      </div>
+                      <div class="col">
+                        <div class="platformImg"><img src="images/twitter.png" alt="outbrain logo" class="img-fluid" style="width: 100px!important;"></div>
+                      </div>
+                      <div class="col">
+                        <div class="platformImg"><img src="images/platform-taboola.png" alt="tabool logo" class="img-fluid"></div>
+                      </div>
+                    
+                    </div>
+                    <div class="row">
+              
+                  
+                  
+                  
+                      <!-- <div class="col">
+                        <div class="platformImg"><img src="images/platform-snapinc.avif" alt="snapinc logo" class="img-fluid"></div>
+                      </div> -->
+                      <!-- <div class="col">
+                        <div class="platformImg"><img src="images/platform-pinterest.svg" alt="livepinterestramp logo" class="img-fluid" width="300"></div>
+                      </div> -->
+                    </div>
+              
+              
+                                </div>
 
                   
                   </div>
@@ -1255,15 +1310,15 @@ Looking to grow your Pediatricians business and attract more patient referrals? 
         We have dedicated teams for each platform, ensuring we reach diverse audiences while maintaining quality. Each team specializes in a specific platform, delivering the highest level of success for our clients.
         </p>
     </div>
-    <div class="image">
+    <div class="image hide">
       <img src="./images/diver.gif" alt="Autoplay GIF" autoplay>
         <!-- <video  loop autoplay muted src="./images/people.mp4"> -->
     </div>
 </div>
 <div class="wrapper3">
-  <div class="image2">
+  <div class="image2 hide">
     <!-- <img src="./images/choice.gif" alt="Autoplay GIF" autoplay> -->
-    <video  loop autoplay muted  src="./images/camera.mp4"></video>
+    <video    loop autoplay muted  src="./images/camera.mp4"></video>
 </div>
   <div class="content2" >
     <h4 style=" color: white !important;padding: 10px !important;">Content Creation</h4>
@@ -1282,7 +1337,7 @@ Looking to grow your Pediatricians business and attract more patient referrals? 
       </p>
       
   </div>
-  <div class="image3">
+  <div class="image3 hide">
     <img src="./images/msgmsg.gif" alt="Autoplay GIF" autoplay>
     <!-- <video  loop autoplay muted  src="./images/text.mp4"> -->
 </div>
