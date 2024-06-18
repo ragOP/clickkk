@@ -21,8 +21,8 @@ body {
 }
 @media (max-width: 600px) {
   .bde-heading {
-    font-size: 2.7em !important;
-    margin-top: -132px !important;
+    /* font-size: 2.7em !important;
+    margin-top: -132px !important; */
     /* margin-bottom: 5px !important; */
   }
   .bde-section{
